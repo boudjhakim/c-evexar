@@ -2,6 +2,14 @@
 
 Un programme en langage C qui permet d'évaluer le résultat d'une expression arithmétique
 
-Compilation: suffit juste de taper la commande make
+## Compilation
 
-Exécution: ./evexar "<expression_arithmétique>"
+```bash
+make
+```
+
+## Exécution
+
+```bash
+ ./evexar "<expression_arithmétique>"
+```
