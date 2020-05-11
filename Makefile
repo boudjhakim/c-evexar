@@ -24,4 +24,4 @@ cleanall:
 	@rm -rf $(TARBALL)
 
 tarball: all
-	@tar -zcvf $(TARBALL) *.c Makefile $(EXEC)
+	@tar -zcvf $(TARBALL) *.c *.h Makefile $(EXEC)
