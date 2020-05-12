@@ -1,4 +1,4 @@
-# langage_c-evexar
+# c-evexar
 
 Un programme en langage C qui permet d'évaluer le résultat d'une expression arithmétique
 
