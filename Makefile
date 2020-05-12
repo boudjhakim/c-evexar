@@ -4,7 +4,7 @@ LDFLAGS=  # Options de l'édition des liens
 EXEC=evexar # Nom de l'exécutable
 TARBALL=evexar.tar.gz # Nom du fichier tarball contenant le projet
 
-SOURCES=main.c compact_argv.c
+SOURCES=main.c compact_argv.c outils.c
 OBJETS=$(SOURCES:.c=.o)
 
 all: $(EXEC)

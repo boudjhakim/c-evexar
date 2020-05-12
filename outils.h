@@ -3,7 +3,5 @@
 
 	enum {VIDE = 0, OPERANDE, OPERATEUR, PARENTHESE_OUVRANTE, PARENTHESE_FERMANTE};
 
-	int pos = 0;
-	int etatPrecedent = VIDE;
-
+	int lireMot(char*, char*);
 #endif
